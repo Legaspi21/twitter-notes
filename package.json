@@ -1,0 +1,19 @@
+{
+  "name": "twitter-notes",
+  "version": "1.0.0",
+  "description": "\"An application for leaving notes on Twitter friends and followers.\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Legaspi21/twitter-notes.git"
+  },
+  "author": "Aidan Legaspi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Legaspi21/twitter-notes/issues"
+  },
+  "homepage": "https://github.com/Legaspi21/twitter-notes#readme"
+}
