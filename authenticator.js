@@ -13,6 +13,12 @@ var oauth = new OAuth(
 );
 
 module.exports = {
+	get: function(url, access_token, access_token_secret, cb) {
+		oauth.get.call(oauth, url, access_token, access_token_secret, cb);
+	},
+	post: function(url, access_token, access_token_secret, body, cb) {
+		oauth.post.call(oauth, url, access_token, access_token_secret, body, cb);
+	},
 	redirectToTwitterLoginPage: function(req, res) {
 		oauth.getOAuthRequestToken(function(error, oauth_token, oauth_token_secret, results) {
 			if (error) {
