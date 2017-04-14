@@ -3,9 +3,9 @@
 	"request_token_url": "https://api.twitter.com/oauth/request_token",
 	"access_token_url": "https://api.twitter.com/oauth/access_token",
 	"authorize_url": "https://twitter.com/oauth/authorize",
-	"consumer_key": "YJWFOzFGlyxWcIeSbHQ3jYa5o",
-	"consumer_secret": "wuycrlwWxgSqXntqN2l8LcMKG9Y01i5krdB2wqTlABDjRr0ra5",
+	"consumer_key": "rg7e3zJkdg34pox0dFGxbOG7I",
+	"consumer_secret": "gnAxgu8yaKDy7GYNB4fjZ380dJm9kNMd5U6LvydQegRtIuh53c",
 	"oauth_version": "1.0",
 	"oauth_signature": "HMAC-SHA1",
-	"oauth_callback": "http://f4147baf.ngrok.io/request-token"
+	"oauth_callback": "http://94ebd82c.ngrok.io/request-token"
 }

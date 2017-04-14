@@ -3,12 +3,13 @@
 
   <head>
     <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="main.js"></script>
   </head>
 
   <body>
     <div id="wrapper">
       <div id="friends-column" class="column">
-        <h1>Your followers</h1>
+        <h1>Your Friends</h1>
         <ul id="friends">
           <% friends.forEach(function(friend) { %>
             <li uid="<%= friend.twitter_id %>"class="friend">

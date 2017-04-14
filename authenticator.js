@@ -49,7 +49,7 @@ module.exports = {
 				if (error) {
 					return cb(error);
 				}
-console.log("A");
+				
 				// Get the user's Twitter ID
 				oauth.get('https://api.twitter.com/1.1/account/verify_credentials.json',
 					oauth_access_token, oauth_access_token_secret,
